@@ -16,6 +16,45 @@
     <h1>Everton News Right In Your Inbox!</h1>
 	<h3>Sign Up Today</h3>
   </header>
+  <main id="content">
+    <form method="post" action="#null" autocomplete="on" id="sign_form">
+	  <h2>Fill in your information and choose how often you want to receive Everton news!</h2>
+	  <div id="input-username">
+	    <label for="username">Username</label>
+		<input type="text" name="user_field" id="username" placeholder="username" required/>
+	  </div>
+	  <div class="dropdown" id="input-social">
+		<label for="social">Your Social</label>
+		<select name="social_media" id="social" required>
+		  <option value="" disabled selected>Choose your social media</option>
+          <option value="Email">Email</option>
+          <option value="Twitter">Twitter</option>
+          <option value="Facebook">Facebook</option>
+          <option value="Instagram">Instagram</option>
+          <option value="VK">VK</option>
+          <option value="TikTok">TikTok</option>
+		  <option value="Whatsapp">WhatsApp</option>
+		</select>
+	  </div>
+	  <div class="dropdown" id="timeframe">
+	    <label for="how_often">How often?</label>
+		<select name="time-period" id="how_often" required>
+		  <option value="" disabled selected>Choose Frequency</option>
+          <option value="daily">Daily</option>
+          <option value="biweekly">Twice a week</option>
+          <option value="weekly">Once a week</option>
+          <option value="monthly">Once a month</option>
+		</select>
+	  </div>
+	  <div id="input-checkbox">
+	    <input type="checkbox" name="terms" id="terms_box" required>
+	    <label for="terms_box">I agree to the terms of serivce</label>
+	  </div>
+	  <div id="input-submit">
+	    <input type="submit" id="subbutton" value="Get News!">
+	  </div>
+	</form>
+  </main>
 </body>
 </html>
 	
