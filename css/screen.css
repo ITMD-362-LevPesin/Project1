@@ -2,20 +2,20 @@ html {
 	font-family: 'Zen Antique', serif;
 	background-color: #FF10F0;
 	font-size: 17px;
-	text-redning: optimizeLegibility;
+	text-rendering: optimizeLegibility;
 }
 
 header img {
 	float: right;
-	height: 240px;
-	width: 240px;
+	height: 120px;
+	width: 120px;
 }
 
 header {
 	height: 7em;
 	line-height: 3.5em;
 	padding-top: 0.5em;
-	padding bottom: 0.5em;
+	padding-bottom: 0.5em;
 	background-color: #080F3A;
 	text-align: center;
 }
