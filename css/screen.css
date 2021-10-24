@@ -28,6 +28,10 @@ h1 {
 }
 
 h2 {
+	color: #FFFF0A;
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 1.25em;
 }
 
 h3 {
@@ -36,3 +40,23 @@ h3 {
 	margin-top: auto;
 	color: #FFFF0A;
 }
+
+label {
+	margin: auto;
+	display: block;
+	width: 70%;
+}
+
+select {
+	margin: auto;
+	display: block;
+	width: 70%;
+}
+
+input {
+	margin: auto;
+	display: block;
+	width: 70%;
+}
+
+	
