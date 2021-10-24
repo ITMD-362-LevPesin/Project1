@@ -54,9 +54,13 @@ select {
 }
 
 input {
-	margin: auto;
 	display: block;
-	width: 70%;
+	width: 30%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #0024FF;
+	color: #FF10F0;
+	border: 0px solid;
 }
 
 div {
