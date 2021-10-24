@@ -80,3 +80,43 @@ form {
 	padding: 1em 1em 1em 1em;
 	margin: 20px 20px 20px 20px;
 }
+
+/*Tablet screen*/
+@media only screen and (min-width: 768px) {
+	html {
+		font-size: 25px;
+	}
+	
+	label {
+		display: inline-block;
+		width: 40%;
+	}
+	
+	select {
+		width: 50%;
+	}
+	
+	input {
+		width: 50%;
+	}
+	
+	header img {
+		height: 150px;
+		width: 150px;
+	
+}
+
+/*Desktop screen*/
+@media screen and (min-width: 992px) {
+	html {
+		font-size: 20px;
+	}
+	
+	#subbutton {
+		width: 25%;
+	}
+	
+	form {
+		width: 50px;
+	}
+}
