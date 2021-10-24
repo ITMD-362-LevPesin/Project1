@@ -16,7 +16,7 @@ header {
 	line-height: 3.5em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
-	background-color: #080F3A;
+	background-color: #0024FF;
 	text-align: center;
 }
 
@@ -59,4 +59,20 @@ input {
 	width: 70%;
 }
 
-	
+div {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.label-input {
+	margin-top: 0.8em;
+}
+
+form {
+	border: solid;
+	border-width: 0.075em;
+	border-color: #0024ff;
+	background-color: #FFFFFF;
+	padding: 1em 1em 1em 1em;
+	margin: 20px 20px 20px 20px;
+}
