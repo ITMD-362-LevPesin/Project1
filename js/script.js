@@ -7,4 +7,4 @@ function myFunction() {
 	alert(message);
 }
 
-form.addEventListener("submit", clickbutton);
+form.addEventListener("submit", myFunction);
