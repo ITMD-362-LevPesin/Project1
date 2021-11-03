@@ -91,7 +91,8 @@ form {
 		display: inline-block;
 		width: 40%;
 	}
-	
+	form {
+		margin: 0 auto;
 	select {
 		width: 50%;
 	}
