@@ -36,31 +36,30 @@ h2 {
 
 h3 {
 	font-size: 1.5em;
-	text-align: center;
 	margin-top: auto;
 	color: #FFBC0A;
 }
 
-label {
-	margin: auto;
-	display: block;
-	width: 70%;
-}
 
 select {
-	margin: auto;
-	display: block;
-	width: 70%;
+	width: 35%;
 }
 
 input {
-	display: block;
+
 	width: 30%;
+	margin-top: 15px;
+	background-color: #0024FF;
+    color:  white;
+}
+
+#subbutton {
+	width: 20%;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	background-color: #0024FF;
 	color: #FF10F0;
-	border: 0px solid;
+    margin:  auto;
 }
 
 div {
@@ -74,7 +73,7 @@ div {
 
 form {
 	border: solid;
-	border-width: 0.075em;
+	border-width: 0.1em;
 	border-color: #0024ff;
 	background-color: #FFFFFF;
 	padding: 1em 1em 1em 1em;
