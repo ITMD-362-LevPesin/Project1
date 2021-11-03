@@ -42,23 +42,22 @@ h3 {
 
 
 select {
-	width: 35%;
+	width: 50%;
 }
 
 input {
-
-	width: 30%;
+	width: 90%;
 	margin-top: 15px;
 	background-color: #0024FF;
     color:  white;
 }
 
 ::placeholder {
-  color:  #FF10F0;
+    color:  #FF10F0;
 }
 
 #subbutton {
-	width: 20%;
+	width: 50%;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	background-color: #0024FF;
@@ -100,7 +99,11 @@ form {
 	label {
 		width: 40%;
 	}
-	
+  
+	#subbuton {
+	    width: 30%;
+	}
+  
 	select {
 		width: 50%;
 	}
@@ -110,7 +113,7 @@ form {
 	}
     
     form {
-      margin: 10% auto;
+        margin: 10 auto;
     }
 	
 	header img {
@@ -126,6 +129,10 @@ form {
 		font-size: 20px;
 	}
 	
+   input {
+        width: 40%
+   }
+  
 	#subbutton {
 		width: 30%;
 	}
