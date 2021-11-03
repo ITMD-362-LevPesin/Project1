@@ -1,4 +1,3 @@
-var js_avaliable = document.getElementsByTagName('html')[0];
 var form = document.getElementById("sign_form");
 
 function myFunction() {
