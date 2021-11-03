@@ -124,6 +124,6 @@ form {
 	form {
 		width: 550px;
 		margin: 0 auto;
-		margin-top: 10px;
+		padding-top: 10px;
 	}
 }
