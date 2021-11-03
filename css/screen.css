@@ -1,5 +1,5 @@
 html {
-	font-family: 'Zen Antique', Georgia, sans-serif;
+	font-family: 'Zen Antique', serif;
 	background-color: #FF10F0;
 	font-size: 17px;
 	text-rendering: optimizeLegibility;
@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-	color: #FFBC0A;
+	color: #FF8500;
 	text-align: center;
 	font-size: 1.5em;
 	line-height: 1.25em;
@@ -37,7 +37,7 @@ h2 {
 h3 {
 	font-size: 1.5em;
 	margin-top: auto;
-	color: #FFBC0A;
+	color: #FF8500;
 }
 
 
@@ -64,7 +64,7 @@ input {
 	background-color: #0024FF;
 	color: #FF10F0;
     margin:  auto;
-	display: block;
+    display: block;
 }
 
 div {
@@ -127,7 +127,7 @@ form {
 	}
 	
 	#subbutton {
-		width: 25%;
+		width: 30%;
 	}
 	
 	form {
